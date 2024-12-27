@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mapagrafos.controller.HelloController">
+    <Canvas fx:id="canvas" height="910" width="440" />
+    <Canvas fx:id="canvasPlayer" height="800" width="440" />
+
+    <VBox fx:id="buttonContainer" alignment="CENTER" layoutX="240.0" layoutY="710.0" prefHeight="200.0" prefWidth="200.0" spacing="10">
+        <!-- Aquí se agregarán los botones dinámicamente -->
+        <ScrollPane fx:id="rowButtons" layoutX="50" layoutY="500" prefHeight="200" prefWidth="400">
+            <!-- Los botones se generarán y se añadirán aquí dinámicamente -->
+        </ScrollPane>
+    </VBox>
+</AnchorPane>
